@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <a onclick="click()" onload="scroll()" id="return-to-top">
+        <i class="fa fa-caret-up" id="caret"></i>
+    </a>
+    <nav class="navbar navbar-default navbar-fixed-top nav-modified" id="navbar-color-rev">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" id="toogle-btn" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="img/ankit_thumbnail.jpg" class="img-circle" alt="Thumbnail" width="70" height="70" />
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right" style="margin-top:20px;">
+                    <li>
+                        <a href="#home-content">Home</a>
+                    </li>
+                    <li>
+                        <a href="#bio-content">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#edu-content">Education</a>
+                    </li>
+                    <li>
+                        <a href="#work-content">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="#project-content">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skill-content">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact-content">Contact</a>
+                    </li>
+                    <li>
+                        <a href="file/Ankit Kumar.pdf" download>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mainbg" id="home-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-2 col-xs-1"></div>
+            <div class="col-md-4 col-xs-5">
+                <h1 class="name">I
+                    <span style="color:#EF6C00">'</span>M
+                    <br/>
+                    <span style="color: #EF6C00">A</span>NKIT
+                    <span style="color:#EF6C00">K</span>UMAR</h1>
+            </div>
+        </div>
+        <div class="row">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div class="col-md-2 col-xs-2"></div>
+            <div class="col-md-4 col-xs-5">
+                <input id="intext" type="text" placeholder="Type your keyword..." onkeyup="search(getElementById('intext').value)" />
+                <br/>
+                <br/>
+                <div class="info" id="result-desc">
+                    <p id="id01">
+                        <strong>Info!</strong> Some text...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About me section -->
+    <div class="bio-section" id="bio-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading" style="color: #000000;">About Me</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <br/>
+            <br/>
+            <div class="col-md-1 col-xs-2"></div>
+            <div class="col-md-4 col-xs-8">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <img src="img/cube.jpg" alt="cube-image" class="img-responsive" />
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="bio-desc">
+                    <p>With an undergraduate computer science degree in hand and months of experience in planning, designing
+                        and building projects looking for full time learning, challenging job which increase my expertise
+                        in software development field. I love working in team because there is an immense oppurtunity to
+                        learn doing things in several ways.</p>
+                    <br/>
+                    <p>I previously worked at PartyHard as an intern where i was developing dynamic web pages, emailers, newsletter
+                        etc and also worked at Wipro Ltd. again as an intern where i was working on employee separation application
+                        using technology ReactJS.</p>
+                    <br/>
+                    <p>When there is no mobile or laptop in my hand then there is bat and ball in my hand. And also I love to
+                        hear music alot. All my learning happens through doing projects because rather then mugging things
+                        form notes I prefer pratical learning.</p>
+                    <br/>
+                    <p>I see myself as a senior developer or project manager at any IT firm in coming five year. You can hire
+                        me as I have experience of doing computer science related projects, I am fast learner as well and
+                        deliver exceptional result.</p>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!-- Eduction -->
+    <div class="education-section" id="edu-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading">Education</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-4 col-xs-1"></div>
+            <div class="col-md-4 col-xs-10">
+                <div id="Primary" class="tabcontent">
+                    <h3>Infant Jesus' School, Patna</h3>
+                    <p>1998 - 2011</p>
+                    <p>Nursery - Class 10th</p>
+                </div>
+
+                <div id="Senior" class="tabcontent">
+                    <h3>Satyam International School, Patna</h3>
+                    <p>2011 - 2013</p>
+                    <p>Class 11th - 12th </p>
+                </div>
+
+                <div id="Grad" class="tabcontent">
+                    <h3>DIT University, Dehradun</h3>
+                    <p>2014 - 2018</p>
+                    <p>B. Tech.</p>
+                </div>
+                <br/>
+                <button class="tablink button" onclick="openEducation('Primary', this, '#EF6C00')" id="defaultOpen">Primary</button>
+                <button class="tablink button" onclick="openEducation('Senior', this, '#EF6C00')">Senior</button>
+                <button class="tablink button" onclick="openEducation('Grad', this, '#EF6C00')">Grad</button>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!--Work Experience-->
+    <div class="work-section container-fluid" id="work-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading">Work Experience</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div class="warning" id="work-block">
+                    <center>
+                        <div class="img-rounded" id="img-work">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <img src="img/partyhard-logo.png" class="img-responsive" alt="image 1" />
+                        </div>
+                        <br/>
+                        <br/>
+                        <h1>PartyHard</h1>
+                        <p>May - June 2016</p>
+                        <p>Web Development</p>
+                    </center>
+                </div>
+                <br/>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="warning" id="work-block">
+                    <center>
+                        <div class="img-rounded" id="img-work">
+                            <br/>
+                            <img src="img/wipro-logo.png" class="img-responsive" alt="image 2" />
+                        </div>
+                        <br/>
+                        <br/>
+                        <h1>Wipro Ltd.</h1>
+                        <p>May - June 2017</p>
+                        <p>Software Development</p>
+                    </center>
+                </div>
+                <br/>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="warning" id="work-block">
+                    <center>
+                        <div class="img-rounded" id="img-work">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg" class="img-responsive" alt="image 3" />
+                        </div>
+                        <br/>
+                        <br/>
+                        <h1>Infosys Ltd.</h1>
+                        <p>Feb - May 2018</p>
+                        <p>System Engineer Trainee</p>
+                    </center>
+                </div>
+                <br/>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!--Project-->
+    <div class="image-parallax container-fluid" id="project-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading">Projects</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="row">
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator img-responsive" src="img/funmate.png">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">funmate.co.in
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>January to February 2016</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">funmate.co.in
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This website will help you to get Stuff like Movie, TV Serial, Software and much more with ease.
+                            Here you will come to know about the stuff you want to download is already available or downloaded
+                            by your mates, neighbours from where you can ask to give you a copy of it.
+                        </p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>PHP</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="www.funmate.co.in" target="_blank">www.funmate.co.in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator img-responsive" src="img/quizpro.png">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Quiz Portal
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>August - September 2017</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Quiz Portal
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This Quiz portal as the name suggest is for taking quiz on various subject. It is mainly developed
+                            by keeping in mind that portal help conducting quiz in school or college for acadmic purpose.
+                            Admin, faculty can set quiz test and student can take test through this quiz portal. I won second
+                            prize for making this quiz portal during my third year in one of the competition organised by
+                            my college.
+                            <span style="font-weight: bolder;">Currently this portal is used by DIT University for conducting online quiz.</span>
+                        </p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>CodeIgniter (PHP framework)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="http://18.221.42.65/quiz/" target="_blank">http://18.221.42.65/quiz/</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator img-responsive" src="img/SmartAccount.png">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">SmartAccount
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>March 2017-Till date</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">SmartAccount
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This is a desktop application helps a company to keep record of entire thing like employee details,
+                            stock details, inventory details. It also helps maintain accounts, generate bill or cash memo
+                            etc. It has some more utility like calculator, product current price, email client.</p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>JavaFX</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/TankCleaning.png" height="238">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Tank Cleaning App
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>January 2017</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Tank Cleaning App
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This is an android app which accept order for tank cleaning and send email to admin and client for
+                            confirmation of order. Google Map api is also used for showing location.</p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>Android</li>
+                            <li>Material Design</li>
+                            <li>Google Map Api</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/bitcoinApp.png" height="238">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Bitcoin Real-time Value Graph App
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>March 2017</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Bitcoin Real-time Value Graph App
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This is an android app in which google login api used for login. It read JSON data provided by CoinDesk
+                            api and plot real-time graph and display value in both INR and USD currency.</p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>Android</li>
+                            <li>Google Login Api</li>
+                            <li>JSON</li>
+                            <li>CoinDesk Api</li>
+                            <li>Graphview Library</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator img-responsive" src="img/jumble.png">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Jumble
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>June 2016</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Jumble
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This project is about playing jumbled word game.</p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>PHP</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="https://github.com/ankit311/Jumble" target="_blank">https://github.com/ankit311/Jumble</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/cplposter.jpg" height="238">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Cricket Premier League Analysis
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>April - May 2018</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Cricket Premier League Analysis
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This is
+                            <b>Business Intelligence</b> project. It is useful from IPL auction point of view. Here user can
+                            create team by analysing individual players performance, compare two teams insights, compare
+                            two players insights in all format of game mainly T20, Test, ODI and IPL as well. It was made
+                            during my internship at Infosys.
+                        </p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>Microsoft SQL Server</li>
+                            <li>Microsoft Power BI</li>
+                            <li>HTML, CSS</li>
+                            <li>SQL Server Data Tools</li>
+                            <li>SQL Server Management Studio</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/segtrapro.png" height="238">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Segmentation of Trajectory
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>November - December 2017</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Segmentation of Trajectory
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">This is a
+                            <b>Data Science</b> Project. Here in this project i have implemented some algorithm related to trajectory
+                            data of animal and human being to predict some useful information to help increase business and
+                            animals behaviour. It is mainly a research paper implementation under the guidance of my university
+                            faculty.
+                        </p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>Python 3</li>
+                            <li>Numpy</li>
+                            <li>Scikit-learn Lib</li>
+                            <li>Matplot Lib</li>
+                            <li>Jupiter Notebook</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12" id="pro-card-small ">
+                <br/>
+                <br/>
+                <div class="project-card" style="width:100%;">
+                    <div class="project-card-image waves-effect waves-block waves-light">
+                        <img class="activator img-responsive" src="" alt="Coming Soon..">
+                    </div>
+                    <div class="project-card-content" style="height:140px;">
+                        <span class="project-card-title activator grey-text text-darken-4">Coming Soon..
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>June 2016</p>
+                    </div>
+                    <div class="project-card-reveal">
+                        <span class="project-card-title grey-text text-darken-4">Coming Soon..
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="project-desc">NA</p>
+                        <span class="project-card-title grey-text text-darken-4">Technology Used:</span>
+                        <ul>
+                            <li>NA</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-action" style="height:70px;">
+                        <a href="#" class="disablelink" target="_blank">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!--Skills-->
+    <div class="skill-section" id="skill-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading">Skills</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/python-logo.png" alt="python" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Python 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/powerbi.jpg" alt="powerbi" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Power BI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/ibmcognos.jpg" alt="ibmcognos" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>IBM Cognos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/sqlserver.png" alt="sqlserver" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Microsoft SQL Server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/html5.png" alt="html5" style="width:100% ; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>HTML 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/css3.jpg" alt="css3" style="width:100% ; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>CSS 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/js.png" alt="javascript" style="width:100% ; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/angular.png" alt="angularjs" style="width:100% ; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Angular JS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/nodejs.png" alt="nodejs" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Node JS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/express.png" alt="expressjs" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Express JS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/php.png" alt="php" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>PHP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/codeigniter.png" alt="codeigniter" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>CodeIgniter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/mongodb.svg" alt="mongodb" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Mongo DB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/mysql.png" alt="mysql" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/Java-logo.jpg" alt="Java" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Java</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/git.svg" alt="git" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Git</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/bootstrap.png" alt="bootstrap" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>Bootstrap 4</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/c.png" alt="c" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>C</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/Rlogo.png" alt="R" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>R</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="w3-card-4">
+                            <img src="img/ssms.jpg" alt="ssms" style="width:100%; height: 150px;">
+                            <div class="w3-container w3-center w3-hover-blue">
+                                <p>SQL Server Management Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!--contact-->
+    <div class="contact-section" id="contact-content">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <h1 class="section-heading">Contact</h1>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div id="phone">
+                <div id="content-screen">
+                    <center>
+                        <br/>
+                        <img src="img/img.jpg" class="img-circle" width="100" height="100" alt="image 1" style="border-radius: 6px; box-shadow: 3px 3px 3px grey"
+                        />
+                        <br/>
+                        <h1>Ankit Kumar</h1>
+                        <p>B. Tech.</p>
+                        <p>Computer Science &amp; Engineering</p>
+                        <p>DIT University</p>
+                        <table>
+                            <tr>
+                                <td style="padding: 2px 2px 10px 2px; font-size:20px;">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </td>
+                                <td style="padding: 2px;">
+                                    <center>
+                                        <p style="margin-left:8px;">ankitkr31195@gmail.com</p>
+                                    </center>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 2px 2px 12px 2px;font-size:20px;">
+                                    <center>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    </center>
+                                </td>
+                                <td style="padding: 2px;">
+                                    <p style="margin-left:8px;">+91-8979597691</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div style="margin: 2px 0;">
+                            <a id="social-icon" href="https://www.linkedin.com/in/ankit-kumar-4280bb108/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a id="social-icon" href="https://www.github.com/ankit311">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a id="social-icon" href="https://www.twitter.com/aBstRaCtAnK">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a id="social-icon" href="https://www.facebook.com/ankit03ankit">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </center>
+                </div>
+                <div id="camera"></div>
+                <div id="speaker"></div>
+                <div id="home"></div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <!-- footer section -->
+    <div class="row footer-section">
+        <center>
+            <h5>Thank You</h5>
+            <div>Made By
+                <img src="img/favicon.jpg" width="18" height="18" alt="logo" />
+            </div>
+        </center>
+        <br/>
+        <br/>
+    </div>
+
+    <!-- javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/scrollup.js"></script>
+    <script src="js/tab-menu.js"></script>
+    <script src="js/navbar_color.js"></script>
+</body>
+
+</html>
