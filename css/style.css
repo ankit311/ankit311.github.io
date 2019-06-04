@@ -105,7 +105,7 @@ input[type=text]:focus{width:100%;}
     top: 5px;
 }
 .warning{background-color:#ffffcc;border-left:6px solid #ffeb3b;border-top:6px solid #ffeb3b;}
-#work-block{padding:40px 20px;height:450px;border-radius:10px;}
+#work-block{padding:40px 20px;height:475px;border-radius:10px;}
 #img-work{background-color:white;border:2px solid #ffeb3b;width:200px;height:200px;}
 #pro-card-small{padding:10px;}
 #phone{position:relative;margin:auto;width:250px;height:505px;padding:50px 15px;background-color:#111;border-radius:20px;border:1px solid #686;box-shadow:-1px -1px wheat, 1px 1px wheat, 1px 1px wheat inset, -1px -1px wheat inset, 5px 5px 25px 0 wheat;}
