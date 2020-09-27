@@ -1,5 +1,5 @@
 function datediff(){
-    var joiningdate = new Date(2018, 7, 16 , 0, 0, 0, 0);
+    var joiningdate = new Date(2020, 6, 8 , 0, 0, 0, 0);
     var currdate = new Date();
     var tot_month = Math.ceil((currdate - joiningdate)/(1000*60*60*24*30))
     var year = Math.floor(tot_month/12);
